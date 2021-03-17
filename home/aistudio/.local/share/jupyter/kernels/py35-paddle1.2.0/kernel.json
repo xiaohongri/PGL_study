@@ -1,0 +1,15 @@
+ {
+ "env": {"PATH":"/opt/conda/envs/python35-paddle120-env/bin:/opt/conda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/aistudio/bin:/home/aistudio/.local/bin:/usr/local/bin:/usr/bin:/bin",
+ "CUDNN_VERSION":"7.6.5","NVIDIA_REQUIRE_CUDA":"cuda>=9.2","LIBRARY_PATH":"/usr/local/cuda/lib64/stubs","NVIDIA_VISIBLE_DEVICES":"all","NVIDIA_DRIVER_CAPABILITIES":"compute,utility","CUDA_PKG_VERSION":"9-2=9.2.148-1","CUDA_VERSION":"9.2.148","NCCL_VERSION":"2.4.2",
+ "LD_LIBRARY_PATH":"/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu",
+ "FLAGS_call_stack_level":"1"},
+ "display_name": "PaddlePaddle 1.8.4 (Python 3.5)",
+ "language": "python",
+ "argv": [
+  "/opt/conda/envs/python35-paddle120-env/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ]
+}

@@ -1,0 +1,299 @@
+[W 2021-02-05 08:41:26.422 SingleUserNotebookApp configurable:168] Config option `open_browser` not recognized by `SingleUserNotebookApp`.  Did you mean `browser`?
+[I 2021-02-05 08:41:27.662 SingleUserNotebookApp extension:158] JupyterLab extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
+[I 2021-02-05 08:41:27.662 SingleUserNotebookApp extension:159] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2021-02-05 08:41:27.667 SingleUserNotebookApp singleuser:559] Starting jupyterhub-singleuser server version 1.1.0
+[I 2021-02-05 08:41:27.674 SingleUserNotebookApp log:174] 302 GET /bdvgpu/user/214830/1467127/ -> /bdvgpu/user/214830/1467127/tree? (@172.21.136.45) 2.35ms
+[I 2021-02-05 08:41:27.679 SingleUserNotebookApp notebookapp:1925] Serving notebooks from local directory: /home/aistudio
+[I 2021-02-05 08:41:27.679 SingleUserNotebookApp notebookapp:1925] The Jupyter Notebook is running at:
+[I 2021-02-05 08:41:27.679 SingleUserNotebookApp notebookapp:1925] http://jupyter-214830-1467127:8888/bdvgpu/user/214830/1467127/
+[I 2021-02-05 08:41:27.679 SingleUserNotebookApp notebookapp:1926] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2021-02-05 08:41:27.685 SingleUserNotebookApp singleuser:540] Updating Hub with activity every 300 seconds
+[I 2021-02-05 08:41:31.285 SingleUserNotebookApp log:174] 302 GET /bdvgpu/user/214830/1467127/notebooks/1467127.ipynb -> /bdvgpu/hub/api/oauth2/authorize?client_id=jupyterhub-user-214830-1467127&redirect_uri=%2Fbdvgpu%2Fuser%2F214830%2F1467127%2Foauth_callback&response_type=code&state=[secret] (@10.14.184.23) 3.42ms
+[I 2021-02-05 08:41:32.141 SingleUserNotebookApp auth:981] Logged-in user {'kind': 'user', 'name': '214830', 'admin': False, 'groups': [], 'server': None, 'pending': None, 'created': '2020-02-17T12:27:53Z', 'last_activity': '2021-02-05T00:41:32.137405Z', 'servers': None}
+[I 2021-02-05 08:41:32.142 SingleUserNotebookApp log:174] 302 GET /bdvgpu/user/214830/1467127/oauth_callback?code=[secret]&state=[secret] -> /bdvgpu/user/214830/1467127/notebooks/1467127.ipynb (@10.14.184.23) 549.91ms
+[I 2021-02-05 08:41:32.306 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/notebooks/1467127.ipynb (214830@10.14.50.9) 26.92ms
+[I 2021-02-05 08:41:34.361 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/terminals?_=1612485696030 (214830@10.14.50.9) 2.02ms
+[I 2021-02-05 08:41:35.336 SingleUserNotebookApp management:320] New terminal with automatic name: 1
+[I 2021-02-05 08:41:35.338 SingleUserNotebookApp log:174] 200 POST /bdvgpu/user/214830/1467127/api/terminals (214830@10.14.50.9) 288.98ms
+[I 2021-02-05 08:41:35.345 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485696722 (214830@10.14.184.23) 294.79ms
+[I 2021-02-05 08:41:35.390 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/kernelspecs?_=1612485697067 (214830@10.14.184.23) 5.96ms
+[I 2021-02-05 08:41:35.424 SingleUserNotebookApp sign:396] Writing notebook-signing key to /home/aistudio/.local/share/jupyter/notebook_secret
+[W 2021-02-05 08:41:35.425 SingleUserNotebookApp manager:510] Notebook 1467127.ipynb is not trusted
+[I 2021-02-05 08:41:35.437 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?type=notebook&_=1612485697068 (214830@10.14.184.23) 40.79ms
+[I 2021-02-05 08:41:36.563 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/sessions?_=1612485698240 (214830@10.14.50.9) 2.33ms
+[I 2021-02-05 08:41:36.767 SingleUserNotebookApp kernelmanager:172] Kernel started: 79961227-82d6-4d79-ba99-fd2d1241fa5b
+[I 2021-02-05 08:41:36.769 SingleUserNotebookApp log:174] 201 POST /bdvgpu/user/214830/1467127/api/sessions (214830@10.14.184.23) 42.64ms
+[I 2021-02-05 08:41:37.201 SingleUserNotebookApp handlers:189] Adapting from protocol version 5.1 (kernel 79961227-82d6-4d79-ba99-fd2d1241fa5b) to 5.3 (client).
+[I 2021-02-05 08:41:37.203 SingleUserNotebookApp log:174] 101 GET /bdvgpu/user/214830/1467127/api/kernels/79961227-82d6-4d79-ba99-fd2d1241fa5b/channels?session_id=31577114c1db4c9a83192e49f6e30ff4 (214830@10.14.184.23) 232.19ms
+[I 2021-02-05 08:41:37.287 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:41:59.328 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485720995&no_track_activity=1 (214830@10.14.50.9) 7.11ms
+[I 2021-02-05 08:42:07.052 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:42:07.086 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:42:07.086 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:42:07.086 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:42:07.087 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:42:07.088 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485728588&no_track_activity=1 (214830@10.14.184.23) 48.80ms
+[I 2021-02-05 08:42:24.569 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485746238&no_track_activity=1 (214830@10.14.50.9) 6.38ms
+[I 2021-02-05 08:42:37.361 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:42:37.392 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:42:37.392 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:42:37.392 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:42:37.392 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:42:37.393 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485758923&no_track_activity=1 (214830@10.14.184.23) 49.49ms
+[I 2021-02-05 08:42:49.827 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485771491&no_track_activity=1 (214830@10.14.50.9) 6.23ms
+[I 2021-02-05 08:43:07.682 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:43:07.714 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:43:07.714 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:43:07.714 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:43:07.715 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:43:07.715 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485789227&no_track_activity=1 (214830@10.14.184.23) 46.10ms
+[I 2021-02-05 08:43:15.068 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485796741&no_track_activity=1 (214830@10.14.50.9) 6.29ms
+[I 2021-02-05 08:43:37.972 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:43:38.005 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:43:38.005 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:43:38.005 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:43:38.005 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:43:38.006 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485819538&no_track_activity=1 (214830@10.14.50.9) 52.20ms
+[I 2021-02-05 08:43:40.293 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485821968&no_track_activity=1 (214830@10.14.184.23) 6.32ms
+[I 2021-02-05 08:44:05.508 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485847184&no_track_activity=1 (214830@10.14.184.23) 6.33ms
+[I 2021-02-05 08:44:06.243 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!pip install --upgrade python-dateutil\n!pip install easydict\n!pip install pgl==1.2.0 \n!pip install pandas>=0.25\n!pip install pyarrow==0.13.0\n!pip install chardet==3.0.4"
+[I 2021-02-05 08:44:08.042 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:44:08.330 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:44:08.356 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:44:08.356 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:44:08.356 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:44:08.356 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:44:08.357 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485849889&no_track_activity=1 (214830@10.14.184.23) 38.16ms
+[I 2021-02-05 08:44:18.405 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:44:30.723 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485872393&no_track_activity=1 (214830@10.14.50.9) 6.17ms
+[I 2021-02-05 08:44:38.664 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:44:38.691 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:44:38.691 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:44:38.691 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:44:38.691 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:44:38.692 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485880190&no_track_activity=1 (214830@10.14.184.23) 45.29ms
+[I 2021-02-05 08:44:55.948 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485897623&no_track_activity=1 (214830@10.14.184.23) 6.59ms
+[I 2021-02-05 08:45:08.940 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:45:08.965 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:45:08.966 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:45:08.966 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:45:08.966 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:45:08.967 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485910520&no_track_activity=1 (214830@10.14.50.9) 40.18ms
+[I 2021-02-05 08:45:21.155 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485922831&no_track_activity=1 (214830@10.14.184.23) 6.54ms
+[I 2021-02-05 08:45:46.358 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485948039&no_track_activity=1 (214830@10.14.184.23) 6.36ms
+[I 2021-02-05 08:45:48.518 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!cd work && unzip -oq graph.zip  \n"
+[I 2021-02-05 08:45:48.520 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!pip install --upgrade python-dateutil\n!pip install easydict\n!pip install pgl==1.2.0 \n!pip install pandas>=0.25\n!pip install pyarrow==0.13.0\n!pip install chardet==3.0.4"
+[I 2021-02-05 08:45:48.521 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "import sys "
+[I 2021-02-05 08:45:48.526 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "import pgl\nimport paddle.fluid as fluid\nimport numpy as np\nimport time\nimport pandas as pd"
+[I 2021-02-05 08:45:48.527 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "from easydict import EasyDict as edict\n\nconfig = {\n    \"model_name\": \"res_unimp_large\",\n    \"num_layers\": 3,\n    \"hidden_size\": 128,\n    \"heads\": 2,\n    \"learning_rate\": 0.001,\n    \"dropout\": 0.33,\n    \"weight_decay\": 0.0005,\n    \"edge_dropout\": 0.32,\n    \"use_label_e\": True\n}\n\nconfig = edict(config)"
+[I 2021-02-05 08:45:48.528 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "from collections import namedtuple\n\nDataset = namedtuple(\"Dataset\", \n               [\"graph\", \"num_classes\", \"train_index\",\n                \"train_label\", \"valid_index\", \"valid_label\", \"test_index\"])\n\ndef load_edges(num_nodes, self_loop=True, add_inverse_edge=True):\n    # \u4ece\u6570\u636e\u4e2d\u8bfb\u53d6\u8fb9\n    edges = pd.read_csv(\"work/edges.csv\", header=None, names=[\"src\", \"dst\"]).values\n\n    if add_inverse_edge:\n        edges = np.vstack([edges, edges[:, ::-1]])\n\n    if self_loop:\n        src = np.arange(0, num_nodes)\n        dst = np.arange(0, num_nodes)\n        self_loop = np.vstack([src, dst]).T\n        edges = np.vstack([edges, self_loop])\n    \n    return edges\n\ndef load():\n    # \u4ece\u6570\u636e\u4e2d\u8bfb\u53d6\u70b9\u7279\u5f81\u548c\u8fb9\uff0c\u4ee5\u53ca\u6570\u636e\u5212\u5206\n    node_feat = np.load(\"work/feat.npy\")\n    num_nodes = node_feat.shape[0]\n    edges = load_edges(num_nodes=num_nodes, self_loop=True, add_inverse_edge=True)\n    graph = pgl.graph.Graph(num_nodes=num_nodes, edges=edges, node_feat={\"feat\": node_feat})\n    \n    indegree = graph.indegree()\n    norm = np.maximum(indegree.astype(\"float32\"), 1)\n    norm = np.power(norm, -0.5)\n    graph.node_feat[\"norm\"] = np.expand_dims(norm, -1)\n    \n    df = pd.read_csv(\"work/train.csv\")\n    # \u6253\u4e71\u987a\u5e8f\n    df.sample(frac=1.0) \n    node_index = df[\"nid\"].values\n    node_label = df[\"label\"].values\n    train_part = int(len(node_index) * 0.8)\n    train_index = node_index[:train_part]\n    train_label = node_label[:train_part]\n    valid_index = node_index[train_part:]\n    valid_label = node_label[train_part:]\n    test_index = pd.read_csv(\"work/test.csv\")[\"nid\"].values\n    dataset = Dataset(graph=graph, \n                    train_label=train_label,\n                    train_index=train_index,\n                    valid_index=valid_index,\n                    valid_label=valid_label,\n                    test_index=test_index, num_classes=35)\n    return dataset"
+[I 2021-02-05 08:45:48.529 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "dataset = load()\n\ntrain_index = dataset.train_index\ntrain_label = np.reshape(dataset.train_label, [-1 , 1])\ntrain_index = np.expand_dims(train_index, -1)\n\nval_index = dataset.valid_index\nval_label = np.reshape(dataset.valid_label, [-1, 1])\nval_index = np.expand_dims(val_index, -1)\n\ntest_index = dataset.test_index\ntest_index = np.expand_dims(test_index, -1)\ntest_label = np.zeros((len(test_index), 1), dtype=\"int64\")\n"
+[I 2021-02-05 08:45:48.529 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "import pgl\nimport model\nimport paddle.fluid as fluid\nimport numpy as np\nimport time\nfrom build_model import build_model\n\n# # \u4f7f\u7528CPU\n# place = fluid.CPUPlace()\n\n# \u4f7f\u7528GPU\nplace = fluid.CUDAPlace(0)\n\ntrain_program = fluid.default_main_program()\nstartup_program = fluid.default_startup_program()\nwith fluid.program_guard(train_program, startup_program):\n    with fluid.unique_name.guard():\n        gw, loss, acc, pred = build_model(dataset,\n                            config=config,\n                            phase=\"train\",\n                            main_prog=train_program)\n\ntest_program = fluid.Program()\nwith fluid.program_guard(test_program, startup_program):\n    with fluid.unique_name.guard():\n        _gw, v_loss, v_acc, v_pred = build_model(dataset,\n            config=config,\n            phase=\"test\",\n            main_prog=test_program)\n\n\ntest_program = test_program.clone(for_test=True)\n\nexe = fluid.Executor(place)"
+[I 2021-02-05 08:45:48.561 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "import os\nuse_label_e = True\nlabel_rate = 0.66\nepoch = 40000\nexe.run(startup_program)\nmax_val_acc = 0\n\n# \u8fd9\u91cc\u53ef\u4ee5\u6062\u590d\u8bad\u7ec3\npretrained = False\nif pretrained:\n    def name_filter(var):\n        res = var.name in os.listdir('./output')\n        return res\n    fluid.io.load_vars(exe, './output',predicate=name_filter)\n    max_val_acc = 0.756\n\nearlystop = 0\n# \u5c06\u56fe\u6570\u636e\u53d8\u6210 feed_dict \u7528\u4e8e\u4f20\u5165Paddle Excecutor\nfeed_dict = gw.to_feed(dataset.graph)\nfor epoch in range(epoch):\n    # Full Batch \u8bad\u7ec3\n    # \u8bbe\u5b9a\u56fe\u4e0a\u9762\u90a3\u4e9b\u8282\u70b9\u8981\u83b7\u53d6\n    # node_index: \u672a\u77e5label\u8282\u70b9\u7684nid    \n    # node_label: \u672a\u77e5label\n    # label_idx: \u5df2\u77e5label\u8282\u70b9\u7684nid    \n    # label: \u5df2\u77e5label\n    \n    if use_label_e:\n        # \u5728\u8bad\u7ec3\u96c6\u4e2d\u62bd\u53d6\u90e8\u5206\u6570\u636e\uff0c\u5176Label\u5df2\u77e5\uff0c\u5e76\u53ef\u4ee5\u8f93\u5165\u7f51\u7edc\u8bad\u7ec3\n        train_idx_temp = np.array(train_index, dtype=\"int64\")\n        train_lab_temp = np.array(train_label, dtype=\"int64\")\n        state = np.random.get_state()\n        np.random.shuffle(train_idx_temp)\n        np.random.set_state(state)\n        np.random.shuffle(train_lab_temp)\n\n        label_idx=train_idx_temp[:int(label_rate*len(train_idx_temp))]\n        unlabel_idx=train_idx_temp[int(label_rate*len(train_idx_temp)):]\n        label=train_lab_temp[:int(label_rate*len(train_idx_temp))]\n        unlabel=train_lab_temp[int(label_rate*len(train_idx_temp)):]\n\n        feed_dict[\"node_index\"] = unlabel_idx\n        feed_dict[\"node_label\"] = unlabel\n        feed_dict['label_idx']= label_idx\n        feed_dict['label']= label\n    else:\n        feed_dict[\"node_label\"] = np.array(train_label, dtype=\"int64\")\n        feed_dict[\"node_index\"] = np.array(train_index, dtype=\"int64\")\n        \n\n    train_loss, train_acc = exe.run(train_program,\n                                feed=feed_dict,\n                                fetch_list=[loss, acc],\n                                return_numpy=True)\n\n    # Full Batch \u9a8c\u8bc1\n    # \u8bbe\u5b9a\u56fe\u4e0a\u9762\u90a3\u4e9b\u8282\u70b9\u8981\u83b7\u53d6\n    # node_index: \u672a\u77e5label\u8282\u70b9\u7684nid    \n    # node_label: \u672a\u77e5label\n    # label_idx: \u5df2\u77e5label\u8282\u70b9\u7684nid    \n    # label: \u5df2\u77e5label\n    \n    feed_dict[\"node_index\"] = np.array(val_index, dtype=\"int64\")\n    feed_dict[\"node_label\"] = np.array(val_label, dtype=\"int64\")\n    if use_label_e:\n        feed_dict['label_idx'] = np.array(train_index, dtype=\"int64\")\n        feed_dict['label'] = np.array(train_label, dtype=\"int64\")\n    val_loss, val_acc = exe.run(test_program,\n                            feed=feed_dict,\n                            fetch_list=[v_loss, v_acc],\n                            return_numpy=True)\n    print(\"Epoch\", epoch, \"Train Acc\", train_acc[0], \"Valid Acc\", val_acc[0])\n    \n    # \u4fdd\u5b58\u5386\u53f2\u6700\u4f18\u9a8c\u8bc1\u7cbe\u5ea6\u5bf9\u5e94\u7684\u6a21\u578b\n    if val_acc[0] > max_val_acc:\n        max_val_acc = val_acc[0]\n        print(val_acc[0])\n        fluid.io.save_persistables(exe, './output', train_program)\n    \n    # \u8bad\u7ec3\u7cbe\u5ea6\u6301\u7eed\u5927\u4e8e\u9a8c\u8bc1\u7cbe\u5ea6\uff0c\u7ed3\u675f\u8bad\u7ec3\n    if train_acc[0] > val_acc[0]:\n        earlystop += 1\n        if earlystop == 40:\n            break\n    else:\n        earlystop = 0"
+[I 2021-02-05 08:45:48.562 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "feed_dict[\"node_index\"] = np.array(test_index, dtype=\"int64\")\nfeed_dict[\"node_label\"] = np.array(test_label, dtype=\"int64\") #\u5047\u6807\u7b7e\ntest_prediction = exe.run(test_program,\n                            feed=feed_dict,\n                            fetch_list=[v_pred],\n                            return_numpy=True)[0]"
+[I 2021-02-05 08:45:48.563 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "submission = pd.DataFrame(data={\n                            \"nid\": test_index.reshape(-1),\n                            \"label\": test_prediction.reshape(-1)\n                        })\nsubmission.to_csv(\"val2t\"+str(max_val_acc)+\".csv\", index=False)"
+[I 2021-02-05 08:45:50.842 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:45:59.615 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:46:01.204 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+W0205 08:46:01.410499    91 device_context.cc:252] Please NOTE: device: 0, CUDA Capability: 70, Driver API Version: 11.0, Runtime API Version: 9.0
+W0205 08:46:01.415563    91 device_context.cc:260] device: 0, cuDNN Version: 7.6.
+[I 2021-02-05 08:46:09.151 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:46:09.174 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:46:09.174 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:46:09.174 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:46:09.174 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:46:09.175 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612485970776&no_track_activity=1 (214830@10.14.50.9) 27.97ms
+[I 2021-02-05 08:46:11.564 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485973234&no_track_activity=1 (214830@10.14.184.23) 6.57ms
+W0205 08:46:14.343755    91 operator.cc:187] elementwise_mul raises an exception paddle::memory::allocation::BadAlloc, 
+
+--------------------------------------------
+C++ Call Stacks (More useful to developers):
+--------------------------------------------
+0   std::string paddle::platform::GetTraceBackString<std::string>(std::string&&, char const*, int)
+1   paddle::memory::allocation::CUDAAllocator::AllocateImpl(unsigned long)
+2   paddle::memory::allocation::AlignedAllocator::AllocateImpl(unsigned long)
+3   paddle::memory::allocation::AutoGrowthBestFitAllocator::AllocateImpl(unsigned long)
+4   paddle::memory::allocation::Allocator::Allocate(unsigned long)
+5   paddle::memory::allocation::RetryAllocator::AllocateImpl(unsigned long)
+6   paddle::memory::allocation::AllocatorFacade::Alloc(paddle::platform::Place const&, unsigned long)
+7   paddle::memory::allocation::AllocatorFacade::AllocShared(paddle::platform::Place const&, unsigned long)
+8   paddle::memory::AllocShared(paddle::platform::Place const&, unsigned long)
+9   paddle::framework::Tensor::mutable_data(paddle::platform::Place const&, paddle::framework::proto::VarType_Type, unsigned long)
+10  paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, float>::Compute(paddle::framework::ExecutionContext const&) const
+11  std::_Function_handler<void (paddle::framework::ExecutionContext const&), paddle::framework::OpKernelRegistrarFunctor<paddle::platform::CUDAPlace, false, 0ul, paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, float>, paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, double>, paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, int>, paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, long>, paddle::operators::ElementwiseMulKernel<paddle::platform::CUDADeviceContext, paddle::platform::float16> >::operator()(char const*, char const*, int) const::{lambda(paddle::framework::ExecutionContext const&)#1}>::_M_invoke(std::_Any_data const&, paddle::framework::ExecutionContext const&)
+12  paddle::framework::OperatorWithKernel::RunImpl(paddle::framework::Scope const&, paddle::platform::Place const&, paddle::framework::RuntimeContext*) const
+13  paddle::framework::OperatorWithKernel::RunImpl(paddle::framework::Scope const&, paddle::platform::Place const&) const
+14  paddle::framework::OperatorBase::Run(paddle::framework::Scope const&, paddle::platform::Place const&)
+15  paddle::framework::Executor::RunPartialPreparedContext(paddle::framework::ExecutorPrepareContext*, paddle::framework::Scope*, long, long, bool, bool, bool)
+16  paddle::framework::Executor::RunPreparedContext(paddle::framework::ExecutorPrepareContext*, paddle::framework::Scope*, bool, bool, bool)
+17  paddle::framework::Executor::Run(paddle::framework::ProgramDesc const&, paddle::framework::Scope*, int, bool, bool, std::vector<std::string, std::allocator<std::string> > const&, bool, bool)
+
+----------------------
+Error Message Summary:
+----------------------
+ResourceExhaustedError: 
+
+Out of memory error on GPU 0. Cannot allocate 177.317627MB memory on GPU 0, available memory is only 158.500000MB.
+
+Please check whether there is any other process using GPU 0.
+1. If yes, please stop them, or start PaddlePaddle on another GPU.
+2. If no, please decrease the batch size of your model. 
+
+ at (/paddle/paddle/fluid/memory/allocation/cuda_allocator.cc:69)
+[I 2021-02-05 08:46:15.589 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:46:37.143 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612485998447&no_track_activity=1 (214830@10.14.50.9) 374.08ms
+[I 2021-02-05 08:46:39.394 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:46:39.419 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:46:39.419 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:46:39.419 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:46:39.419 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:46:39.420 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486000985&no_track_activity=1 (214830@10.14.184.23) 34.04ms
+[I 2021-02-05 08:47:02.362 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486024038&no_track_activity=1 (214830@10.14.50.9) 6.49ms
+[I 2021-02-05 08:47:28.302 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486049964&no_track_activity=1 (214830@10.14.50.9) 6.48ms
+[I 2021-02-05 08:47:39.711 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:47:39.734 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:47:39.734 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:47:39.734 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:47:39.734 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:47:39.735 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486061231&no_track_activity=1 (214830@10.14.50.9) 32.02ms
+[I 2021-02-05 08:47:54.294 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486075963&no_track_activity=1 (214830@10.14.184.23) 6.32ms
+[I 2021-02-05 08:48:19.575 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486101240&no_track_activity=1 (214830@10.14.184.23) 6.34ms
+[I 2021-02-05 08:48:40.408 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:48:40.429 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:48:40.429 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:48:40.430 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:48:40.430 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:48:40.431 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486121964&no_track_activity=1 (214830@10.14.184.23) 26.71ms
+[I 2021-02-05 08:48:45.293 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486126964&no_track_activity=1 (214830@10.14.50.9) 6.38ms
+[I 2021-02-05 08:49:01.877 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/output?type=directory&_=1612486143495 (214830@10.14.50.9) 44.22ms
+[I 2021-02-05 08:49:06.252 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486147919 (214830@10.14.50.9) 6.59ms
+[I 2021-02-05 08:49:10.491 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486152161&no_track_activity=1 (214830@10.14.184.23) 6.39ms
+[I 2021-02-05 08:49:36.297 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486177964&no_track_activity=1 (214830@10.14.50.9) 6.26ms
+[I 2021-02-05 08:50:02.403 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486203964&no_track_activity=1 (214830@10.14.50.9) 6.34ms
+[I 2021-02-05 08:50:28.302 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486229964&no_track_activity=1 (214830@10.14.50.9) 6.81ms
+[I 2021-02-05 08:50:54.305 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486255965&no_track_activity=1 (214830@10.14.50.9) 6.45ms
+[I 2021-02-05 08:51:10.617 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:51:10.640 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:51:10.640 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:51:10.640 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:51:10.640 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:51:10.641 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486272247&no_track_activity=1 (214830@10.14.50.9) 25.97ms
+[I 2021-02-05 08:51:18.475 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!zip -r \u8096\u5b8f\u65e5.zip /home/aistudio/"
+[I 2021-02-05 08:51:19.518 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486281180&no_track_activity=1 (214830@10.14.50.9) 6.71ms
+[I 2021-02-05 08:51:20.042 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:51:41.818 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:51:41.852 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:51:41.852 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:51:41.852 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:51:41.852 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:51:41.853 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486302965&no_track_activity=1 (214830@10.14.50.9) 436.28ms
+[I 2021-02-05 08:51:46.587 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:51:46.647 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486308312&no_track_activity=1 (214830@10.14.184.23) 6.45ms
+[I 2021-02-05 08:52:12.567 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486333964&no_track_activity=1 (214830@10.14.184.23) 6.39ms
+[I 2021-02-05 08:52:37.830 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486359490&no_track_activity=1 (214830@10.14.50.9) 6.53ms
+[I 2021-02-05 08:53:03.292 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486384963&no_track_activity=1 (214830@10.14.50.9) 6.43ms
+[I 2021-02-05 08:53:29.363 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486410990&no_track_activity=1 (214830@10.14.184.23) 6.38ms
+[I 2021-02-05 08:53:55.293 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486436963&no_track_activity=1 (214830@10.14.50.9) 6.61ms
+[I 2021-02-05 08:54:20.583 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486462166&no_track_activity=1 (214830@10.14.184.23) 6.71ms
+[I 2021-02-05 08:54:45.936 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486487538&no_track_activity=1 (214830@10.14.50.9) 6.81ms
+[I 2021-02-05 08:55:11.174 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486512840&no_track_activity=1 (214830@10.14.50.9) 6.55ms
+[I 2021-02-05 08:55:37.297 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486538963&no_track_activity=1 (214830@10.14.50.9) 6.33ms
+[I 2021-02-05 08:55:44.417 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:55:44.444 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:55:44.444 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:55:44.444 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:55:44.444 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:55:44.445 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486545967&no_track_activity=1 (214830@10.14.184.23) 43.64ms
+[I 2021-02-05 08:56:02.527 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486564194&no_track_activity=1 (214830@10.14.184.23) 6.46ms
+[I 2021-02-05 08:56:14.721 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:56:14.748 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:56:14.748 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:56:14.748 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:56:14.748 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:56:14.749 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486576253&no_track_activity=1 (214830@10.14.50.9) 42.93ms
+[I 2021-02-05 08:56:27.787 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486589433&no_track_activity=1 (214830@10.14.50.9) 6.63ms
+[I 2021-02-05 08:56:45.500 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:56:45.527 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:56:45.527 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:56:45.527 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:56:45.527 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:56:45.528 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486606560&no_track_activity=1 (214830@10.14.50.9) 516.40ms
+[I 2021-02-05 08:56:53.025 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486614691&no_track_activity=1 (214830@10.14.184.23) 6.58ms
+[I 2021-02-05 08:57:15.963 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:57:15.989 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:57:15.989 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:57:15.989 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:57:15.989 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:57:15.990 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486637474&no_track_activity=1 (214830@10.14.50.9) 42.27ms
+[I 2021-02-05 08:57:18.260 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486639922&no_track_activity=1 (214830@10.14.184.23) 6.41ms
+[I 2021-02-05 08:57:43.484 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486665146&no_track_activity=1 (214830@10.14.184.23) 6.46ms
+[I 2021-02-05 08:57:46.292 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:57:46.319 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:57:46.320 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:57:46.320 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:57:46.320 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:57:46.321 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486667801&no_track_activity=1 (214830@10.14.50.9) 41.74ms
+[I 2021-02-05 08:58:09.206 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486690382&no_track_activity=1 (214830@10.14.184.23) 6.66ms
+[I 2021-02-05 08:58:16.755 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:58:16.782 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:58:16.782 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:58:16.782 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:58:16.783 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:58:16.784 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486698136&no_track_activity=1 (214830@10.14.50.9) 45.92ms
+[I 2021-02-05 08:58:34.472 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486716143&no_track_activity=1 (214830@10.14.184.23) 6.75ms
+[I 2021-02-05 08:58:47.099 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:58:47.126 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:58:47.126 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:58:47.126 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:58:47.126 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:58:47.127 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486728602&no_track_activity=1 (214830@10.14.50.9) 45.98ms
+[I 2021-02-05 08:58:59.685 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486741350&no_track_activity=1 (214830@10.14.50.9) 6.95ms
+[I 2021-02-05 08:59:20.593 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!zip -r \u8096\u5b8f\u65e5.zip /home/aistudio/"
+[I 2021-02-05 08:59:23.245 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:59:26.297 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486767965&no_track_activity=1 (214830@10.14.184.23) 6.61ms
+[I 2021-02-05 08:59:48.071 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "%whos"
+[I 2021-02-05 08:59:48.251 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 08:59:48.277 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 08:59:48.278 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 08:59:48.278 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 08:59:48.278 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 08:59:48.279 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486789784&no_track_activity=1 (214830@10.14.184.23) 42.24ms
+[I 2021-02-05 08:59:51.488 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486793153&no_track_activity=1 (214830@10.14.184.23) 6.56ms
+[I 2021-02-05 09:00:06.796 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/nbconvert/notebook/1467127.ipynb?download=true (214830@10.14.184.23) 153.75ms
+[I 2021-02-05 09:00:12.953 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/nbconvert/script/1467127.ipynb?download=true (214830@10.14.50.9) 398.74ms
+[I 2021-02-05 09:00:17.297 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486818963&no_track_activity=1 (214830@10.14.184.23) 6.45ms
+[I 2021-02-05 09:00:19.421 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 09:00:19.444 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 09:00:19.444 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 09:00:19.444 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 09:00:19.444 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 09:00:19.445 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612486820964&no_track_activity=1 (214830@10.14.50.9) 27.57ms
+[I 2021-02-05 09:00:43.291 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486844964&no_track_activity=1 (214830@10.14.50.9) 6.32ms
+[I 2021-02-05 09:01:09.307 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486870964&no_track_activity=1 (214830@10.14.184.23) 6.39ms
+[I 2021-02-05 09:01:34.494 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486896167&no_track_activity=1 (214830@10.14.184.23) 6.62ms
+[I 2021-02-05 09:02:00.674 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486921964&no_track_activity=1 (214830@10.14.184.23) 374.98ms
+[I 2021-02-05 09:02:26.304 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486947977&no_track_activity=1 (214830@10.14.184.23) 6.40ms
+[I 2021-02-05 09:02:51.529 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486973181&no_track_activity=1 (214830@10.14.50.9) 6.84ms
+[I 2021-02-05 09:03:16.762 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612486998408&no_track_activity=1 (214830@10.14.50.9) 6.73ms
+[I 2021-02-05 09:03:42.084 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612487023739&no_track_activity=1 (214830@10.14.50.9) 6.59ms
+[I 2021-02-05 09:03:49.648 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 09:03:49.670 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 09:03:49.670 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 09:03:49.670 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 09:03:49.670 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 09:03:49.671 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612487031257&no_track_activity=1 (214830@10.14.184.23) 27.12ms
+[I 2021-02-05 09:04:07.338 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612487048967&no_track_activity=1 (214830@10.14.184.23) 6.82ms
+[I 2021-02-05 09:04:19.927 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 09:04:19.950 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 09:04:19.950 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 09:04:19.950 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 09:04:19.950 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 09:04:19.952 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612487061490&no_track_activity=1 (214830@10.14.50.9) 27.41ms
+[I 2021-02-05 09:04:32.708 SingleUserNotebookApp log:174] 200 GET /bdvgpu/user/214830/1467127/api/contents/%2F?type=directory&_=1612487074277&no_track_activity=1 (214830@10.14.184.23) 6.62ms
+[I 2021-02-05 09:04:50.277 SingleUserNotebookApp handlers:164] Saving file at /1467127.ipynb
+[I 2021-02-05 09:04:50.300 SingleUserNotebookApp filepostsavescript:25] notebook file Saving script project start
+[I 2021-02-05 09:04:50.300 SingleUserNotebookApp filepostsavescript:28] notebook file Saving script project projectId=1467127,hostIp=172.16.0.181
+[I 2021-02-05 09:04:50.300 SingleUserNotebookApp filepostsavescript:32] api url:http://172.16.0.181:8018/studio/node/ipynb/save
+[I 2021-02-05 09:04:50.300 SingleUserNotebookApp filepostsavescript:49] notebook file Saving script project success
+[I 2021-02-05 09:04:50.301 SingleUserNotebookApp log:174] 200 PUT /bdvgpu/user/214830/1467127/api/contents/1467127.ipynb?_=1612487091784&no_track_activity=1 (214830@10.14.184.23) 27.82ms
+[I 2021-02-05 09:04:56.362 SingleUserNotebookApp wsintercept:182] jupyter_notebook_cell: "!zip -r \u8096\u5b8f\u65e5.zip /home/aistudio/"
